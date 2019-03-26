@@ -1,12 +1,20 @@
 header {
     background-color: #e24647;
+    color: #ffffff;
 }
 h1 {
-    color: #ffffff;
     font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+nav {
+    font-size: 21px;
+    font-family: Segoe UI, Arial, Helvetica, sans-serif;
 }
 
 a {
-    color: #ffffff;
     text-decoration: none;
+    color: inherit;
+    
+    
 }

@@ -7,7 +7,7 @@
 }.product-store > .title{
     font-size: 25px;
     line-height: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
         
 }
 .product-store > .item {
@@ -43,5 +43,13 @@
 .product-store .action {
     color: inherit;
     text-decoration: none;
+
+}
+
+.estrela {
+    display: inline-block;
+    margin-right: 9px;
+    margin-bottom: 25px;
+
 
 }

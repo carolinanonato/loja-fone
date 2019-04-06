@@ -1,66 +1,60 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Loja de Fone</title>
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <title>Headphone store</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/container-store.css">
+    <link rel="stylesheet" href="css/header-store.css">
+    <link rel="stylesheet" href="css/wrap-product.css">
+    <link rel="stylesheet" href="css/photo-product.css">
+    <link rel="stylesheet" href="css/description-product.css">
+    <link rel="stylesheet" href="css/button-store.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
 
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/container-store.css">
-        <link rel="stylesheet" href="css/header-store.css">
-        <link rel="stylesheet" href="css/wrap-product.css">
-        <link rel="stylesheet" href="css/photo-product.css">
-        <link rel="stylesheet" href="css/product-store.css">
-        <link rel="stylesheet" href="css/button-store.css">
-       
-        
-    </head>
+<body>
+    <div class="container-store">
+        <header class="header-store">
+            <h1 class="title">Logo</h1>
+            <nav class="navigation">
+                <input class="search" type="search" placeholder="Busca">
+                <a class="action" href="#">Produtos</a>
+                <a class="action" href="#">Serviços</a>
+                <a class="action -.last" href="#">Carrinho (10)</a>
+            </nav>
+        </header>
 
-    <body> 
-        <div class="container-store">
-    <header class="header-store">
-        <h1 class="title"> Logo </h1>
-       
-        <nav class="navigation">
-            <dl class="search"> Busca</dl>
-            <a class="action -first" href="http://www.google.com">Produtos</a class="action">
-            <a class="action" href="http://www.google.com">Serviços</a class="action"> 
-            <a class="action -last" href="http://www.google.com">Carrinho (10)</a>
-        
-        </nav>
-    </header>
-      
-    <figure class="photo-product"><img src="/img/fone.png" alt="Fone de ouvido"></figure>
+        <figure class="photo-product">
+            <img src="img/fone.png" alt="Foto fone de ouvido vermelho">
+        </figure>
+        <section class="wrap-product">
+            <dl class="description-product">
+                <dt class="title">Fone top, feliz e caro</dt>
+                <dd><img class="star" src="img/estrela_preta.png" alt="Estrela selecionada">
+                    <img class="star" src="img/estrela_preta.png" alt="Estrela selecionada">
+                    <img class="star" src="img/estrela_preta.png" alt="Estrela selecionada">
+                    <img class="star" src="img/estrela_preta.png" alt="Estrela selecionada">
+                    <img class="star" src="img/estrela_transparente.png" alt="Estrela não selecionada">
+                </dd>
+                <dd class="item">4.0 (97)</dd>
+                <dd class="item -info"><strong class="contrast">Frete</strong> C$ 108</dd>
+                <dd class="item -info -last"><strong class="contrast">Preço</strong> C$ 340</dd>
+                <dd class="text">Fone TOP com um cor feliz que não tem fio. A cor também é algo que impressiona junto
+                    com o
+                    seu layout modernão! Ele é caro? É! Mas compre que você não vai se arrepender e se você se
+                    arrepender
+                    pode vender no mercado livre..kkkk</dd>
+                <dd class="text -more"><a class="action" href=""> Saber mais...</a></dd>
+            </dl>
+            <div class="buttons">
+                <button class="button-store -second">Adiciona no carrinho</button>
+                <a class="button-store" href="comprar.html">Comprar</a>
+            </div>
+        </section>
+    </div>
+</body>
 
-
-    <section class="wrap-product">
-<dl class="product-store">
-    
-    <dt class="title">Fone top, feliz e caro</dt>
-
-    <dd class="estrela"><img src="/img/estrela_preta.png" alt="Estrela preta"> </dd>
-    <dd class="estrela"><img src="/img/estrela_preta.png" alt="Estrela preta"> </dd> 
-    <dd class="estrela"><img src="/img/estrela_preta.png" alt="Estrela preta"> </dd> 
-    <dd class="estrela"><img src="/img/estrela_preta.png" alt="Estrela preta"> </dd> 
-    <dd class="estrela"><img src="/img/estrela_transparente.png" alt="Estrela transparente"> </dd> 
-
-    <dd class="item">  4.0 (97)  </dd>
-    <dd class="item -infor"> <strong class= "contrast">Frete</strong> C$108   </dd>
-    <dd class="item -infor -last"> <strong class= "contrast">Preço</strong> C$340   </dd>
-    <dd class="info">Fone TOP com um cor feliz que não tem fio. A cor também é algo que
-         impressiona junto com o  seu layout modernão! Ele é caro? É! Mas 
-         compre que você não vai se arrepender e se você se arrepender pode 
-         vender no mercado livre..kkkk  </dd>
-
-         <dd class="info"> <a href="" class="action">Saber mais...</a></dd>
-         
-</dl>
-</section>
- <button class='button-store -second'>Adiciona no carrinho</button>
- <a class='button-store' href="comprar.html">Comprar</a>
-
-        </div>
-    </body>
 </html>

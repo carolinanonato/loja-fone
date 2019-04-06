@@ -13,9 +13,11 @@
 .product-store > .item {
     font-size: 20px;
     margin-bottom: 28px;
+    
 }
     
-.product-store > .item,-infor {
+.product-store > .item.-infor {
+    text-align: right;
     width: 200px;
     
 }

@@ -15,7 +15,7 @@
   
   .description-product > .item.-star {
     margin-bottom: 10px;
-  }
+     }
   
   .description-product > .item.-star + .item {
     margin-left: 7px;
@@ -48,4 +48,8 @@
   .description-product .action {
     color: inherit;
     text-decoration: none;
+  }
+
+  .star {
+    cursor:pointer;
   }

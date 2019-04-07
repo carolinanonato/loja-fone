@@ -10,3 +10,8 @@
     bottom: 0;
     transform: translateY(calc(100% + 98px));
   }
+
+  .heart {
+    position: absolute;
+    transform: translateY(20%) translateX(-205%);
+  }

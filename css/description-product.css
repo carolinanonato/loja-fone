@@ -26,10 +26,11 @@
 
   .description-product > .item.-star {
     margin-bottom: 10px;
+    cursor: pointer;
      }
     
   .description-product > .item.-star:hover {
-    transform: scale(1.0005);
+    transform: scale(1.01);
   
   }
 

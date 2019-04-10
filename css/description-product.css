@@ -12,18 +12,27 @@
     font-size: 20px;
     margin-bottom: 28px;
   }
-  
+    
   .description-product > .item.-heart {
     position: absolute;
-    transform: translateX(-100%);
-    left:-48px;
+    left:-68px;
     top: 8px;
+    cursor: pointer;
+      }
+
+  .description-product > .item.-heart:hover {
+    transform: scale(1.2)
   }
 
-   .description-product > .item.-star {
+  .description-product > .item.-star {
     margin-bottom: 10px;
      }
+    
+  .description-product > .item.-star:hover {
+    transform: scale(1.0005);
   
+  }
+
   .description-product > .item.-star + .item {
     margin-left: 7px;
   }

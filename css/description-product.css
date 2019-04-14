@@ -20,19 +20,20 @@
     cursor: pointer;
       }
 
-  .description-product > .item.-heart:hover {
-    transform: scale(1.2)
-  }
-
+  
   .description-product > .item.-star {
     margin-bottom: 10px;
     cursor: pointer;
      }
     
-  .description-product > .item.-star:hover {
-    transform: scale(1.01);
-  
+  .description-product .icon {
+    transition: transform 100ms linear;
+    }
+
+  .description-product .icon:hover{
+    transform: scale(1.2);
   }
+
 
   .description-product > .item.-star + .item {
     margin-left: 7px;
@@ -71,4 +72,32 @@
     cursor:pointer;
   }
 
- 
+  @media (max-width: 1310px) {
+    .description-product {
+      width: 50%;
+      min-width: 655px;
+      margin: 0 auto 60px;
+    }
+    
+    .description-product > .title {
+      font-size: 35px;
+      text-align: center;
+
+    }
+
+    .description-product > .item.-star {
+      float: left;
+      margin-right: 10px;
+    }
+
+    .description-product > .item.-number {
+      padding-top: 4px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .description-product {
+      width: 90%;
+      min-width: auto;
+    }
+  }

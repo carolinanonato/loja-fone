@@ -1,4 +1,5 @@
 .header-store {
+    align-items: center;
     color: #fff;
     overflow: hidden;
     margin-bottom: 138px;
@@ -14,10 +15,11 @@
   }
   
   .header-store > .navigation {
+    margin-left: auto;
     font-size: 21px;
     font-family: "Segoe UI", "Roboto", sans-serif;
     float: right;
-     }
+  }
   
   .header-store [type="search"] {
     background: transparent;
@@ -29,6 +31,7 @@
     padding: 8px;
     width: 358px;
     margin-right: 65px;
+    vertical-align: bottom;
   }
 
   .header-store [type="search"]::placeholder {
@@ -40,27 +43,93 @@
     text-decoration: none;
     color: inherit;
     margin-right: 60px;
-    
-  }
-  
-  .header-store .action::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 1px;
-    background: #fff;
-    margin: 8px;
-    transition: width .3s;
-    ransition: width .3s;
-
-  }
-  
-.header-store .action:hover::after {
-  width: 100%;
-  transition: width .3s;
-
-
+    padding-bottom: 8px;
+    position: relative;
+      
 }
+.header-store .action::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: center left;
+  transition: transform 0.2s linear;
+}
+
+.header-store .action:hover:after {
+  transform: scaleX(1);
+}
+
+
   .header-store .action.-last {
     margin-right: 0;
+  
+}
+
+@media (max-width: 1310px) {
+  .header-store {
+    padding-right: 60px;
   }
+}
+
+
+@media (max-width:1235px) { 
+.header-store > .title {
+  float: none;
+  text-align: center; 
+}
+
+  .header-store > .navigation {
+    float: none;
+    text-align: center;
+
+}
+
+}
+
+@media (max-width: 955px) {
+  .header-store {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .header-store [type="search"] {
+    display: none;
+  }
+}
+
+@media (max-width: 530px) {
+  .header-store .action {
+    margin-right: 30px;
+  }
+
+}
+
+@media (max-width: 465px) {
+  .header-store .action {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .header-store {
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+
+    .header-store .action {
+      margin-right: 8px;
+    }
+
+  }
+
+  @media (max-width: 335px) {
+    .header-store > .navigation {
+      display:none;
+    }
+  }
+
+

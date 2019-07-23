@@ -1,4 +1,10 @@
+http,
 body {
-    background-image:
-    -moz-linear-gradient(#252a34, #ff2e63);
+    height: 100%;
+}
+
+
+
+body {
+    background-image: linear-gradient( to bottom, #252a34, #ff2e63);
 }
